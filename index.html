@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/trivia.css">
+    <title>Trivia | Cultura general</title>
+</head>
+
+<body>
+    <div class="trivia">
+        <div class="trivia-header">
+            <h1 class="trivia-title">Cultura general</h1>
+        </div>
+        <div class="trivia-content">
+            <div class="u_wrapper">
+                <form>
+                    <div class="new-trivia">
+                        <h2 class="trivia-question">1. ¿Cuál es el lugar más frio de la tierra?</h2>
+                        <div class="trivia-options">
+                            <ul>
+                                <li>
+                                    <input id="firstOptionq1" type="radio" name="q1" value="1">
+                                    <label for="firstOptionq1">Antártida</label>
+                                </li>
+                                <li>
+                                    <input id="secondOptionq1" type="radio" name="q1" value="1">
+                                    <label for="secondOptionq1">Patagonia</label>
+                                </li>
+                                <li>
+                                    <input id="thirtOptionq1" type="radio" name="q1" value="1">
+                                    <label for="thirtOptionq1">África</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="new-trivia">
+                        <h2 class="trivia-question">2. ¿Qué cantidad de huesos hay en el cuerpo humano?</h2>
+                        <div class="trivia-options">
+                            <ul>
+                                <li>
+                                    <input id="firstOptionq2" type="radio" name="q2" value="1">
+                                    <label for="firstOptionq2">206</label>
+                                </li>
+                                <li>
+                                    <input id="secondOptionq2" type="radio" name="q2" value="1">
+                                    <label for="secondOptionq2">260</label>
+                                </li>
+                                <li>
+                                    <input id="thirtOptionq2" type="radio" name="q2" value="1">
+                                    <label for="thirtOptionq2">300</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="new-trivia">
+                        <p id="first-answer-correct" style="display: none;">Respuesta 1: Correcto</p>
+                        <p id="first-answer-wrong" style="display: none;">Respuesta 1: Incorrecto</p>
+                        <p id="second-answer-correct" style="display: none;">Respuesta 2: Correcto</p>
+                        <p id="second-answer-wrong" style="display: none;">Respuesta 2: Incorrecto</p>
+                    </div>
+                    <div class="new-trivia">
+                        <button type="button" id="view-button" class="view-button button">Responder y ver
+                            resultados</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/trivia.js"></script>
+</body>
+
+</html>
